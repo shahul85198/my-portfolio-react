@@ -7,9 +7,7 @@ import Nav from './Component/navigation';
 
 function App() {
   return ( 
-    <div className=''>
-     
-           <div >
+    <div className='bg-slate-300'>
             <BrowserRouter>
             <Nav className='p-4 bg-gray-800 text-white'/>
               <Routes>
@@ -22,9 +20,7 @@ function App() {
               </Routes>
               
             </BrowserRouter>
-           
-
-            </div>
+          
          
             
     </div>

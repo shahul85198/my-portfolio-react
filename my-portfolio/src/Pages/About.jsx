@@ -1,51 +1,4 @@
-// import react from 'react'
 
-// export default function About(){
-//         return (
-//                 <div className=' m-4'>
-//                         <div>
-
-//                        <p className='bg-red'> Frontend React JS Developer: 
-//                          Passionate and results-driven frontend developer with over four years of experience specializing in React JS.<br/>
-//                         Proficient in crafting modern, responsive web applications with a keen eye on user experience and performance optimization.<br/>
-//                         Demonstrated expertise in front-end development, state management, and seamless integration of RESTful APIs. <br/>
-//                         Adept at translating design mockups into flawless UI implementations and maximizing application efficiency.
-//                        </p>
-//                        </div>
-
-//                     <h1> Key Skills: <br/>
-        
-//         <ul>
- 
-//         <li>  React JS | JavaScript | HTML5 | CSS3 </li>
-//         <li>  Redux | Context API | Hooks  </li>
-//         <li> RESTful APIs | Asynchronous Request Handling </li>
-//         <li>  Babel | Git | GitHub </li>
-//         <li>  UI/UX Design </li>
-
-//        </ul>
-//       </h1>
-
-
-//       <div className='pt-4 m-4'>
-
-//          <h2>
-//          Responsibilities and Achievements: <ul>
-                       
-//          <li> Developed and maintained dynamic, responsive web applications using React JS, ensuring superior user experiences and optimized performance.</li>  
-//          <li> Collaborated closely with design and backend teams to implement front-end functionality and integrate with APIs.</li>  
-//          <li> Utilized state management libraries (such as Redux) to manage complex application states and streamline data flow.</li>  
-//          <li> Implemented responsive designs, ensuring cross-browser compatibility and a consistent user experience across devices.</li>  
-//          <li> Conducted code reviews and providing constructive feedback to optimize code quality, maintainability, and scalability.</li>  
-//          <li> Actively participated in Agile development methodologies, contributing to sprint planning, stand-ups, and retrospectives for efficient project execution.</li>  
-//          <li> Stayed up-to-date with the latest frontend technologies, trends, and best practices to continuously improve skills and deliver innovative solutions. </li>  
-
-//          </ul>
-//         </h2>
-//         </div>
-//                  </div>
-//         )
-// }
 
 import React from 'react';
 
@@ -53,12 +6,12 @@ import React from 'react';
 export default function About() {
   return (
     <div className="flex min-h-screen">
-      {/* Sidebar */}
+     
       <div className="w-1/4 bg-yellow-500 flex flex-col items-center py-8">
       <img 
        className="h-24 w-24 rounded-full mb-4"
-       src="https://i.ibb.co/6HcHYNX/My-Image.jpg"
-       alt="My-Image" border="0" />
+       src="https://i.ibb.co/dGF1gWy/IMG-20210518-shahul.jpg"
+       alt="Profile Picture" border="0" />
         <nav className="flex flex-col space-y-4">
           <a href="/" className="text-white text-lg">Home</a>
           <a href="/about" className="text-white text-lg">About Me</a>
@@ -69,7 +22,6 @@ export default function About() {
         </nav>
       </div>
 
-      {/* Main Content */}
       <div className="w-3/4 p-16 bg-gray-100 flex flex-col space-y-8">
         <h1 className="text-5xl font-bold">ABOUT ME</h1>
         <h2 className="text-2xl font-bold">

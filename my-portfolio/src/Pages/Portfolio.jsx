@@ -1,20 +1,11 @@
 
 import React from 'react';
+import SideBar from './sidebar/SideBar';
 export default function Portfolio() {
   
     return (
       <div className=" flex min-h-screen">
-      <div className="w-1/4 bg-yellow-500 flex flex-col items-center py-8">
-      <img  className="h-24 w-24 rounded-full mb-4" src="https://i.ibb.co/dGF1gWy/IMG-20210518-shahul.jpg"  alt='' border="0" />
-        <nav className="flex flex-col space-y-4">
-          <a href="/" className="text-white text-xl">Home</a>
-          <a href="/about" className="text-white text-xl">About Me</a>
-          <a href="/resume" className="text-white text-xl">Resume</a>
-          <a href="/portfolio" className="text-white text-xl">Portfolio</a>
-          <a href="/testimonials" className="text-white text-xl">Testimonials</a>
-          <a href="/contact" className="text-white text-xl">Contact</a>
-        </nav> 
-      </div>
+      <SideBar />
        
 
         <div className="w-3/4 p-8 bg-gray-100">

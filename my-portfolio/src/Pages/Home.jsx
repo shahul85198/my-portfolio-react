@@ -8,7 +8,7 @@ import { IoPerson } from "react-icons/io5";
 export default function Home() {
   return (
     <div className="flex flex-row min-h-screen">
-      <div className="flex flex-col justify-center w-1/2 p-16 bg-red-100">
+      <div className="flex flex-col justify-center w-1/2 p-16 bg-gray-300">
         <h1 className="text-5xl font-bold mb-4">HI THERE!</h1>
         <h2 className="text-6xl font-bold mb-4">
           I'M <span className="text-yellow-500">SHAHUL HAMEED</span>
@@ -20,18 +20,18 @@ export default function Home() {
              A passionate Front-end React <br /> Developer based in
         </p>
 
-        <button className="bg-yellow-500 text-white py-2 px-4 rounded">MORE ABOUT ME</button>
+        <button className="bg-gray-800 text-white py-2 px-4 rounded">MORE ABOUT ME</button>
       </div> 
       <div className="relative w-1/2 bg-gray-200"> 
       <img className="object-cover w-full " src="https://i.ibb.co/dGF1gWy/IMG-20210518-shahul.jpg" alt="IMG-20210518-shahul" border="0" /> 
       
      
         <div className="absolute right-0 top-1/2 transform -translate-y-1/2 flex flex-col space-y-4 p-4 bg-yellow-500 rounded-full">
-          <a href="https://www.linkedin.com/in/sk-masthan/" className="text-white"><IoLogoLinkedin className="h-6 w-6" /></a>
+          <a href="https://www.linkedin.com/in/shahul-hameed85/" className="text-white"><IoLogoLinkedin className="h-6 w-6" /></a>
           <a href='/about' className='text-white'> <IoPerson className='h-6 w-6'/> </a>
-          <a href="https://github.com/masthanskk" className="text-white"><FaGithub className="h-6 w-6" /></a>
+          <a href="" className="text-white"><FaGithub className="h-6 w-6" /></a>
           
-          {/* Add more icons as needed */}
+          
         </div>
       </div>
     </div>

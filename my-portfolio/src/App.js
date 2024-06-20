@@ -12,10 +12,12 @@ function App() {
             <Nav className='p-4 bg-gray-800 text-white'/>
               <Routes>
 
-                <Route path ='/' element= {<Home />} />
-                <Route path ='about' element= {<About />} />
-                <Route path ='portfolio' element= {<Portfolio />} />
-                <Route path ='contact' element= {<Contact />} />
+              <Route path ='/'  element= {<Home />} />
+                <Route path ='about'  element= {<About />} />
+                <Route path ='portfolio'  element= {<Portfolio />} />
+                <Route path = 'testimonials'  element = {<Testimonials />} />
+                <Route path ='contact'  element= {<Contact />} />
+                <Route path = 'resume' element = {<Resume/>}/>
                 
               </Routes>
               
